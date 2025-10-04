@@ -382,10 +382,6 @@ dialog_yesno "Last Chance!" "$final_warning" || exit
 
 clear
 
-if [ ! -f "$HOME/.retrocrt_counter.svg" ]; then
-    curl -s "https://hits.seeyoufarm.com/api/count/incr/badge.svg?url=https%3A%2F%2Fgithub.com%2Fxovox%2FRetroCRT%2F&count_bg=%23FF8C00&title_bg=%23555555&icon=&icon_color=%23E7E7E7&title=hits&edge_flat=false" > "$HOME/.retrocrt_counter.svg" 2> /dev/null
-fi
-
 ##############################################################################
 # write our config
 ##############################################################################
